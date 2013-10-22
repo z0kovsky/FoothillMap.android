@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+    tools:context=".ClassEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/editview_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_title"
+            android:inputType="textCapWords"
+            android:hint="@string/editview_title_hint"
+            android:clickable="true"
+            style="@style/TextAppearance.AppCompat.Base.Widget.PopupMenu.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/editview_time"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_time"
+            android:hint="@string/editview_time_hint"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/editview_weekday"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_weekday"
+            android:hint="@string/editview_weekday_hint"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/editview_location"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_location"
+            android:inputType="textPersonName"
+            android:hint="@string/editview_location_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

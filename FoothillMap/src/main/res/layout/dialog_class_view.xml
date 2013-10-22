@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="100dp"
+    android:minHeight="150dp"
+    tools:context=".ClassInfoDialogFragment"
+    android:background="@android:color/holo_blue_light"
+    android:clickable="false"
+    android:focusableInTouchMode="false">
+
+    <!--<LinearLayout-->
+    <!--android:padding="5dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="right"-->
+    <!--android:layout_alignParentEnd="true">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/view_edit_btn"-->
+    <!--android:layout_marginRight="2dp"-->
+    <!--android:layout_width="32dp"-->
+    <!--android:layout_height="32dp"-->
+    <!--android:background="@drawable/btn_edit"-->
+    <!--android:layout_gravity="center" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/view_delete_btn"-->
+    <!--android:layout_width="32dp"-->
+    <!--android:layout_height="32dp"-->
+    <!--android:background="@drawable/btn_remove"-->
+    <!--android:layout_gravity="center" />-->
+    <!--</LinearLayout>-->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:padding="5dp"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="fill">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/view_edit_btn"
+                android:layout_marginRight="2dp"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/btn_edit"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/view_delete_btn"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/btn_remove"
+                android:layout_gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/view_time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_weight="10"
+                android:textColor="@android:color/white" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/view_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_weight="10"
+                android:textColor="@android:color/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/view_location"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:layout_weight="10"
+                android:textColor="@android:color/white" />
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

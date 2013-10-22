@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foothill Map</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="menu_new_class">Add new class</string>
+    <string name="menu_filter">Filter</string>
+    <string name="title_activity_class_edit">Create new class</string>
+    <string name="menu_edit_done">Done</string>
+    <string name="menu_edit_cancel">Cancel</string>
+    <string name="menu_edit_remove">Remove</string>
+    <string name="warning_msg_empty_title">Title should be not empty</string>
+    <string name="title_activity_fhmap_fragment">FHMapFragment</string>
+    <string name="title_activity_fhschedule_fragment">FHScheduleFragment</string>
+    <string name="warning_msg_empty_weekday">Pick a weekday</string>
+    <string name="warning_msg_empty_time">Pick time for the class</string>
+    <string name="setting_food_and_drinks">Food And Drinks</string>
+    <string name="setting_restroom">Restrooms</string>
+    <string name="setting_parking">Parking</string>
+    <string name="setting_smoking_area">Smoking Areas</string>
+    <string name="setting_current_class">Current class</string>
+    <string name="setting_next_class">Next class</string>
+    <string name="status_marker_current">Current: %1$s, %1$s</string>
+    <string name="status_marker_next">Next: %1$s, %1$s</string>
+    <string name="status_button_current">Current at %1$s, %2$s</string>
+    <string name="status_button_next">Next at %1$s, %2$s</string>
+    <string name="section_foothill">Foothill College</string>
+    <string name="section_classes">Today\'s Classes</string>
+    <string name="weekday_pick_title">Pick a weekday</string>
+    <string name="time_pick_title">Set Time</string>
+    <string name="time_string_empty">__:__ AM/PM</string>
+    <string name="tab_schedule">Schedule</string>
+    <string name="tab_map">Map</string>
+    <string name="editview_title">Title</string>
+    <string name="editview_title_hint">Title</string>
+    <string name="editview_time">Time</string>
+    <string name="editview_time_hint">8:00 AM</string>
+    <string name="editview_weekday">Weekday</string>
+    <string name="editview_weekday_hint">Weekday</string>
+    <string name="editview_location">Location</string>
+    <string name="editview_location_hint">Location</string>
+    <string name="listitem_unknownlocation">Unknown location</string>
+    <string name="title_activity_test_images">TestImagesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
